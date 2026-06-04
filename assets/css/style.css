@@ -82,7 +82,6 @@ body {
 
 .hero {
     width: 100%;
-    max-width: 1920px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -287,4 +286,103 @@ body {
 
 .first-logo {
     background-color: #fff;
+}
+
+.about-section {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 903px;
+    padding: 150px;
+    background-color: #0C0C0C;
+}
+
+.main-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.about-card-wrapper {
+    position: relative;
+    width: 744px;
+    height: 703px;
+}
+
+.about-main-card {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 640px;
+    height: 640px;
+    border-radius: 20px;
+    z-index: 5;
+    overflow: hidden;
+    background: url(../images/about-image-one.jpg) center / cover no-repeat;
+}
+
+.bg-card-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 640px;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 1;
+    background: url(../images/about-image-three.png) center / cover no-repeat;
+}
+
+.bg-card-right {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    width: 640px;
+    height: 640px;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 2;
+    background: url(../images/about-image-two.png) center / cover no-repeat;
+}
+
+.about-content {
+    width: 100%;
+    max-width: 586px;
+}
+
+.about-us-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-title {
+    margin: 25px 0 25px 0;
+    font-size: 64px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #F4F4F4;
+    margin-bottom: 25px;
+}
+
+.about-stats {
+    display: flex;
+    gap: 59px;
+    margin-bottom: 32px;
+}
+
+.card-title {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.card-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F4F4F4;
 }
